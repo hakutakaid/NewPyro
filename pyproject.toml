@@ -51,8 +51,8 @@ keywords = [
 [project.urls]
 Homepage = "https://kurigram.live"
 Documentation = "https://docs.kurigram.live"
-Source = "https://github.com/KurimuzonAkuma/pyrogram"
-Issues = "https://github.com/KurimuzonAkuma/pyrogram/issues"
+Source = "https://github.com/hakutakaid/NewPyro"
+Issues = "https://github.com/hakutakaid/NewPyro/issues"
 Community = "https://t.me/kurigram_chat"
 
 [project.optional-dependencies]
@@ -74,7 +74,6 @@ docs = [
 ]
 
 fast = [
-    # "tgcrypto<=1.2.5",
     "uvloop<=0.21.0; sys_platform == 'darwin' or sys_platform == 'linux'",
 ]
 
