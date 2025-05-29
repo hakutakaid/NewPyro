@@ -74,7 +74,7 @@ docs = [
 ]
 
 fast = [
-    "tgcrypto<=1.2.5",
+    # "tgcrypto<=1.2.5",
     "uvloop<=0.21.0; sys_platform == 'darwin' or sys_platform == 'linux'",
 ]
 
